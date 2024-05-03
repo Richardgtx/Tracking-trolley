@@ -7,27 +7,35 @@
 #include "Timer.h"
 #include "Encoder.h"
 #include "PID.h"
+#include "Rudder.h"
 int16_t Speed;
 int16_t pwmout=0;
+uint16_t a;
 int main(void)
 {
 	OLED_Init();
 	
 	Pwm_Init();
 	In_Init();
-	Key_Init();
+	
 //	LED_Init();
 //	LED2_OFF();
 	OLED_ShowString(1,1,"Speed:");
 	OLED_ShowString(2,1,"PID:");
+	OLED_ShowString(3,1,"rudder: ");
 	Encoder_Init();
+	Key_Init();
 	Timer_Init();
-	
+	Rudder_Init();
 	while(1)
 	{
 			OLED_ShowSignedNum(1,8,Speed,5);
 			pwmout=PID(Speed,40);
 			OLED_ShowSignedNum(2,8,pwmout,5);
+			Key_Move1();
+			a=Key_get();
+			OLED_ShowNum(3,9,a,3);
+
 	}
 }
 void TIM4_IRQHandler(void)

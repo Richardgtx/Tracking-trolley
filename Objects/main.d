@@ -36,3 +36,4 @@
 .\objects\main.o: .\Hardware\Timer.h
 .\objects\main.o: .\Hardware\Encoder.h
 .\objects\main.o: .\Hardware\PID.h
+.\objects\main.o: .\Hardware\Rudder.h

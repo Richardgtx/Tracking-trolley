@@ -30,5 +30,4 @@
 .\objects\key.o: .\Library\misc.h
 .\objects\key.o: .\System\Delay.h
 .\objects\key.o: Hardware\LED.h
-.\objects\key.o: Hardware\PWM.h
-.\objects\key.o: Hardware\IN1IN2.h
+.\objects\key.o: Hardware\Rudder.h

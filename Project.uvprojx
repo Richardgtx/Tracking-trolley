@@ -750,6 +750,16 @@
               <FileType>5</FileType>
               <FilePath>.\Hardware\PID.h</FilePath>
             </File>
+            <File>
+              <FileName>Rudder.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\Rudder.c</FilePath>
+            </File>
+            <File>
+              <FileName>Rudder.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\Rudder.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
