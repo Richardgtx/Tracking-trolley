@@ -21,6 +21,9 @@ https://github.com/user-attachments/assets/f4bf6a62-1722-4faf-8e01-bee2de640c9e
 ![image](https://github.com/user-attachments/assets/e8b8fb0a-6aa6-471e-babf-05a0e941df6b)
 
 
+PID闭环控制车速
+
+
 https://github.com/user-attachments/assets/568c7fed-cf33-4ece-a5fe-1e2403eac836
 
 
